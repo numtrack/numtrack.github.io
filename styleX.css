@@ -86,7 +86,7 @@ progress {
 
 #record {
 	position: absolute;
-	right: 300px;
+	right: 20%;
 }
 
 #reset {
@@ -99,6 +99,6 @@ progress {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    right: 150px;
+    right: 10%;
     top: 25px;
 }

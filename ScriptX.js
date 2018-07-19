@@ -2,7 +2,7 @@
 			canvas = document.getElementById('canvas'),
 			ctx = canvas.getContext('2d');
 		canvas.width = window.innerWidth;
-		canvas.height = window.innerHeight;
+		canvas.height = window.innerHeight-100;
 
 	alert("Сейчас Вам будут показаны круги с цифрами, у Вас будет 5 секунд, чтобы запомнить их порядок, после чего необходимо будет верно выбрать все цифры по порядку. Удачи!");
 
