@@ -1,0 +1,104 @@
+body {
+	font-size: 30px;
+	color: white;
+	background: #d7e4f5;
+	font-family: Arial;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+::-webkit-progress-bar {
+    background: #008CBA;
+}
+::-webkit-progress-value {
+    background: #d7e4f5;
+}
+::-moz-progress-bar {
+    background: #d7e4f5;
+}
+
+
+progress {
+	position: absolute;
+    display: block;
+    color: black;
+    background: white;
+    border: 2px solid #008CBA;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 300px;
+    height: 25px;
+    line-height: 21px;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+#canv {
+	position: absolute;
+	left: 0px;
+	top: 100px;
+}
+
+#header {
+	top: 0px;
+	height: 100px;
+	background: #91BBE4;
+}
+
+#inner {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	width: 200px;
+	height: 80px;
+	text-align: center;
+}
+
+#out {
+	position: absolute;
+	user-select: none;
+	padding-top: 10px;
+}
+
+#status {
+	position: absolute;
+	padding-top: 10px;
+}
+
+
+
+#score {
+	position: absolute;
+	left: 3%;
+}
+
+#lvl {
+	position: absolute;
+	left: 20%;
+}
+
+#record {
+	position: absolute;
+	right: 300px;
+}
+
+#reset {
+	position: absolute;
+    background-color: #008CBA; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    right: 150px;
+    top: 25px;
+}
